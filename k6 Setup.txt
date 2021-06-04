@@ -23,6 +23,9 @@ C:\Users\pc\k6\API_Testing\new-recording_165844.har
 npx har-to-k6 archive.har -o my-k6-script.js
 npx har-to-k6 new-recording_165844.har -o my-k6-script.js
 
+Run k6 script:
+go to script path: k6 run my-k6-script.js
+
 
 
 
