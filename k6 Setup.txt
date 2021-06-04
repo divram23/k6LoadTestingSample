@@ -1,0 +1,28 @@
+k6 Cloud Webapp: https://k6.io/docs/cloud/
+Provides to record websites for user scenario and convert it to tests and extract reports.
+
+k6 installed locally runs k6 scripts writing in JavaScript.
+Tests E2E User Scenarios of Website and API
+
+k6 Browser extension - records user scenario and generates HAR file.
+This file can be converted to k6 script using the HAR-to-k6 tool and run the k6 test script locally.
+
+
+k6 Tool: https://k6.io/docs/getting-started/installation/
+
+Recording a Scenario: 
+
+HAR-to-k6 Tool: https://github.com/k6io/har-to-k6
+Install via npm
+npm install --save har-to-k6
+
+In nodemodules folder paste the HAR file and run command to convert to k6 file.
+C:\Users\pc\k6\API_Testing\node_modules\har-to-k6
+
+C:\Users\pc\k6\API_Testing\new-recording_165844.har
+npx har-to-k6 archive.har -o my-k6-script.js
+npx har-to-k6 new-recording_165844.har -o my-k6-script.js
+
+
+
+
