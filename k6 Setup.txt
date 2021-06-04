@@ -27,6 +27,8 @@ npx har-to-k6 new-recording_165844.har -o my-k6-script.js
 Run k6 script:
 go to script path: k6 run my-k6-script.js
 
+k6 Results Output:
+https://k6.io/docs/getting-started/results-output/
 
 
 
