@@ -7,6 +7,7 @@ Tests E2E User Scenarios of Website and API
 k6 Browser extension - records user scenario and generates HAR file.
 This file can be converted to k6 script using the HAR-to-k6 tool and run the k6 test script locally.
 
+k6 Browser Extension: https://chrome.google.com/webstore/detail/k6-browser-recorder/phjdhndljphphehjpgbmpocddnnmdbda/related
 
 k6 Tool: https://k6.io/docs/getting-started/installation/
 
